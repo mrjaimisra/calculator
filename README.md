@@ -1,6 +1,6 @@
 # calculator
 
-## What it is:
+## What it is
 
 A calculator can do simple math operations, and this one is the simplest. Designed to introduce very early level beginners to some core programming concepts.
 
@@ -16,7 +16,7 @@ A calculator can do simple math operations, and this one is the simplest. Design
 + Requiring files and libraries
 + Running programs and executing code on the command line
 
-## Helpful Resources:
+## Helpful Resources
 
 [Ruby in 100 minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_ 100_minutes.html) by Jeff Casimir of the Turing School. Just a really good overview of the Ruby language.
 
