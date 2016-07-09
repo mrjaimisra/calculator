@@ -97,15 +97,15 @@ For example, you will see that the #add method takes two arguments, *number_one*
 
 Instead of the current #add method, which reads:
 
-`def add(number_one, number_two)
+>def add(number_one, number_two)
   number_one + number_two
-end`
+end
 
 we could change it to:
 
-`def add(numbers)
+>def add(numbers)
   number_one + number_two
-end`
+end
 
 and then pass in an **array** of numbers instead of two fixed numbers. An array is a simple collection of objects in Ruby. For more about arrays, check out [Ruby in One Hundred Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_ 100_minutes.html) referenced in the **Helpful Resources** section, or the [Ruby Docs on Arrays](http://ruby-doc.org/core-2.3.1/Array.html).
 
