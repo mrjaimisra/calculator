@@ -35,6 +35,6 @@ class CalculatorRunner
 end
 
 calc   = Calculator.new
-runner = CalculatorRunner.new(calc)
+runner = CalculatorRunner.new
 
-runner.calculate
+runner.calculate(calc)

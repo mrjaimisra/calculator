@@ -61,7 +61,7 @@ Basically, we are playing a simple game of **make-the-tests-pass**. Once they ha
 
 This line of code at the bottom of the `calculator_runner.rb` file loads the user interface and runs the calculator when you execute the program in the terminal:
 
-`runner.calculate`
+`runner.calculate(calc)`
 
 ## Running Tests
 
