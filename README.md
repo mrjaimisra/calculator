@@ -32,7 +32,7 @@ From the command line, `cd` into the directory in which you would like to instal
 
 To use the calculator, run:
 
-`ruby calculator.rb`
+`ruby calculator_runner.rb`
 
 Follow the instructions in the prompt. Have fun! :)
 
@@ -59,17 +59,9 @@ Basically, we are playing a simple game of **make-the-tests-pass**. Once they ha
 
 `calculator_runner.rb` is the runner for the calculator file. This file contains one class *CalculatorRunner* with one method **calculate**. The #puts method call prints the words of the prompt to the screen. The #gets.chomp method call waits for the user to enter text input from the command line and collects that input.
 
-This line of code at the bottom of the `calculator.rb` file loads the user interface and runs the calculator when you execute the program in the terminal:
+This line of code at the bottom of the `calculator_runner.rb` file loads the user interface and runs the calculator when you execute the program in the terminal:
 
 `runner.calculate`
-
-If you remove that line, or the one above it (`runner = CalculatorRunner.new`), the program will stop working.
-
-Similarly, if you remove the line at the top of `calculator.rb` that reads:
-
-`require './calculator_runner.rb'`
-
-then the program will no longer know how to load the prompt and the user interface from the command line, and it will stop working.
 
 ## Running Tests
 

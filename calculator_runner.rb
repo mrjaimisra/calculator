@@ -1,5 +1,7 @@
+require './calculator.rb'
+
 class CalculatorRunner
-  def calculate
+  def calculate(calculator)
     puts "Choose an operation: ADD (a), SUBTRACT (s), MULTIPLY (m), DIVIDE (d)"
 
     operation = gets.chomp
@@ -11,8 +13,6 @@ class CalculatorRunner
     puts "Enter another number"
 
     number_two = gets.chomp.to_f
-
-    calculator = Calculator.new
 
     if operation == 'a'
       result = calculator.add(number_one, number_two)
@@ -33,3 +33,8 @@ class CalculatorRunner
     puts "The result is #{result}"
   end
 end
+
+calc   = Calculator.new
+runner = CalculatorRunner.new(calc)
+
+runner.calculate

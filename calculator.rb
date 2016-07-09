@@ -1,5 +1,3 @@
-require './calculator_runner.rb'
-
 class Calculator
   def add(number_one, number_two)
     number_one + number_two
@@ -10,8 +8,4 @@ class Calculator
 
   def multiply
   end
-
 end
-
-runner = CalculatorRunner.new
-runner.calculate
