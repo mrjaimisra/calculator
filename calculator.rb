@@ -8,4 +8,10 @@ class Calculator
 
   def multiply
   end
+
+  def divide
+  end
+
+  def modulo
+  end
 end
